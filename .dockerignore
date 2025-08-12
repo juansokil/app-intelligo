@@ -14,3 +14,6 @@ venv/
 # Large local data
 *.pdf
 .env
+
+# Ignore local Streamlit secrets
+.streamlit/secrets.toml
