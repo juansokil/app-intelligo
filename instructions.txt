@@ -1,0 +1,6 @@
+# Build
+docker build -t pdf-core-concepts .
+
+# Run locally (pass secrets at runtime)
+docker run --rm -p 8501:8501 -e OPENAI_API_KEY=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 -e OPENAI_MODEL=gpt-4o-mini  -e OPENAI_EMBED_MODEL=text-embedding-3-small  pdf-core-concepts
+

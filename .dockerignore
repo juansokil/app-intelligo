@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.toml
+
+# Editors/OS
+.DS_Store
+.git
+.gitignore
+
+
+# Large local data
+*.pdf
+.env
