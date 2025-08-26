@@ -1,2 +1,5 @@
 # Local Streamlit secrets (never commit this!)
 .streamlit/secrets.toml
+
+*.pdf
+*.docx
