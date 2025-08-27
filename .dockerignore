@@ -10,9 +10,9 @@ venv/
 .git
 .gitignore
 
-
 # Large local data
 *.pdf
+*.docx
 .env
 
 # Ignore local Streamlit secrets
